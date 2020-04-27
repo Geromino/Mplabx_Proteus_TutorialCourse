@@ -1,0 +1,11 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111114 -fo20 -N"C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\MIkrco\Sprcial_Addition.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\MIkrco\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" "Sprcial_Addition.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_SPI_c345.mcl" "__Lib_PortExpander.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	Sprcial_Addition.c
+diagnostics: 38	123	Compiled Successfully	Sprcial_Addition.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used RAM (bytes): 35 (10%)  Free RAM (bytes): 317 (90%)	Used RAM (bytes): 35 (10%)  Free RAM (bytes): 317 (90%)
+hint: 0	1144	Used ROM (program words): 361 (4%)  Free ROM (program words): 7831 (96%)	Used ROM (program words): 361 (4%)  Free ROM (program words): 7831 (96%)
+diagnostics: 0	125	Project Linked Successfully	Sprcial_Addition.mcppi
+diagnostics: 0	128	Linked in 63 ms	 
+diagnostics: 0	129	Project 'Sprcial_Addition.mcppi' completed: 188 ms	 
+diagnostics: 0	103	Finished successfully: 24 Apr 2020, 16:51:04	Sprcial_Addition.mcppi

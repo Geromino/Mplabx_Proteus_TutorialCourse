@@ -45,7 +45,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
  */
 
 #include "mcc_generated_files/mcc.h"
-#include "lcd.h"
+#include "lcd_singlebits_configuration.h"
 
 /*
                          Main application
@@ -67,7 +67,9 @@ void main(void)
     SYSTEM_Initialize();
     
     // initialize the LCD
-    LCD_Initialize();
+    //LCD_Initialize();
+    lcd_init();
+    lcd_clear();
 
 
     // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
@@ -98,21 +100,7 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
 
-     LCDPutStr("  Hello World!");  //Display String "Hello World"
-     LCDGoto(8,1);                 //Go to column 8 of second line
-     LCDPutChar('1');              //Display character '1'
-     Delay_Seconds(1);    // 1 second delay
-     LCDGoto(8,1);        //Go to column 8 of second line
-     LCDPutChar('2');     //Display character '2'
-     Delay_Seconds(1);    // 1 second delay
-     LCDGoto(8,1);        //Go to column 8 of second line
-     LCDPutChar('3');     //Display character '3'
-     Delay_Seconds(1);    // 1 second delay
-     DisplayClr();        // Clear the display
-     
-     LCDPutStr("   LCD Display");  //Display String "LCD Display"                     
-             LCDGoto(0,1);         //Go to second line                         
-            LCDPutStr("StudentCompanion"); //Display String "StudentCompanion"                     
+                    
     while (1)
     {
         // Add your application code

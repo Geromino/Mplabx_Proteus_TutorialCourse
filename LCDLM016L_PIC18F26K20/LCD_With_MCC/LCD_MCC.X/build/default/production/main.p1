@@ -7,21 +7,12 @@ Version 4.0 HI-TECH Software Intermediate Code
 "67 ./mcc_generated_files/mcc.h
 [; ;./mcc_generated_files/mcc.h: 67: void SYSTEM_Initialize(void);
 [v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
-"120 ./lcd.h
-[; ;./lcd.h: 120: void LCD_Initialize(void);
-[v _LCD_Initialize `(v ~T0 @X0 0 ef ]
-"174
-[; ;./lcd.h: 174: void LCDPutStr(const char *);
-[v _LCDPutStr `(v ~T0 @X0 0 ef1`*Cuc ]
-"214
-[; ;./lcd.h: 214: void LCDGoto(uint8_t pos, uint8_t ln);
-[v _LCDGoto `(v ~T0 @X0 0 ef2`uc`uc ]
-"138
-[; ;./lcd.h: 138: void LCDPutChar(uint8_t ch);
-[v _LCDPutChar `(v ~T0 @X0 0 ef1`uc ]
-"156
-[; ;./lcd.h: 156: void LCDPutCmd(uint8_t ch);
-[v _LCDPutCmd `(v ~T0 @X0 0 ef1`uc ]
+"58 ./lcd_singlebits_configuration.h
+[; ;./lcd_singlebits_configuration.h: 58:  void lcd_init(void);
+[v _lcd_init `(v ~T0 @X0 0 ef ]
+"46
+[; ;./lcd_singlebits_configuration.h: 46:  void lcd_clear(void);
+[v _lcd_clear `(v ~T0 @X0 0 ef ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f26k20.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f26k20.h: 54: __asm("SSPMSK equ 0F77h");
 [; <" SSPMSK equ 0F77h ;# ">
@@ -504,67 +495,25 @@ Version 4.0 HI-TECH Software Intermediate Code
 "67
 [; ;main.c: 67:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"70
-[; ;main.c: 70:     LCD_Initialize();
-[e ( _LCD_Initialize ..  ]
-"101
-[; ;main.c: 101:      LCDPutStr("  Hello World!");
-[e ( _LCDPutStr (1 :s 1C ]
-"102
-[; ;main.c: 102:      LCDGoto(8,1);
-[e ( _LCDGoto (2 , -> -> 8 `i `uc -> -> 1 `i `uc ]
-"103
-[; ;main.c: 103:      LCDPutChar('1');
-[e ( _LCDPutChar (1 -> -> 49 `ui `uc ]
+"71
+[; ;main.c: 71:     lcd_init();
+[e ( _lcd_init ..  ]
+"72
+[; ;main.c: 72:     lcd_clear();
+[e ( _lcd_clear ..  ]
 "104
-[; ;main.c: 104:      Delay_Seconds(1);
-[e ( _Delay_Seconds (1 -> -> 1 `i `uc ]
-"105
-[; ;main.c: 105:      LCDGoto(8,1);
-[e ( _LCDGoto (2 , -> -> 8 `i `uc -> -> 1 `i `uc ]
-"106
-[; ;main.c: 106:      LCDPutChar('2');
-[e ( _LCDPutChar (1 -> -> 50 `ui `uc ]
-"107
-[; ;main.c: 107:      Delay_Seconds(1);
-[e ( _Delay_Seconds (1 -> -> 1 `i `uc ]
-"108
-[; ;main.c: 108:      LCDGoto(8,1);
-[e ( _LCDGoto (2 , -> -> 8 `i `uc -> -> 1 `i `uc ]
-"109
-[; ;main.c: 109:      LCDPutChar('3');
-[e ( _LCDPutChar (1 -> -> 51 `ui `uc ]
-"110
-[; ;main.c: 110:      Delay_Seconds(1);
-[e ( _Delay_Seconds (1 -> -> 1 `i `uc ]
-"111
-[; ;main.c: 111:      LCDPutCmd(0x01);
-[e ( _LCDPutCmd (1 -> -> 1 `i `uc ]
-"113
-[; ;main.c: 113:      LCDPutStr("   LCD Display");
-[e ( _LCDPutStr (1 :s 2C ]
-"114
-[; ;main.c: 114:              LCDGoto(0,1);
-[e ( _LCDGoto (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
-"115
-[; ;main.c: 115:             LCDPutStr("StudentCompanion");
-[e ( _LCDPutStr (1 :s 3C ]
-"116
-[; ;main.c: 116:     while (1)
+[; ;main.c: 104:     while (1)
 [e :U 287 ]
-"117
-[; ;main.c: 117:     {
+"105
+[; ;main.c: 105:     {
 {
-"119
-[; ;main.c: 119:     }
+"107
+[; ;main.c: 107:     }
 }
 [e :U 286 ]
 [e $U 287  ]
 [e :U 288 ]
-"120
-[; ;main.c: 120: }
+"108
+[; ;main.c: 108: }
 [e :UE 285 ]
 }
-[a 2C 32 32 32 76 67 68 32 68 105 115 112 108 97 121 0 ]
-[a 3C 83 116 117 100 101 110 116 67 111 109 112 97 110 105 111 110 0 ]
-[a 1C 32 32 72 101 108 108 111 32 87 111 114 108 100 33 0 ]

@@ -1,0 +1,328 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"51 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\addtional_string.c
+[v _ftoa ftoa `(*.4uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"242
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcat.c
+[v _strcat strcat `(*.1uc  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strcpy.c
+[v _strcpy strcpy `(*.1uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"55 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\lcd.c
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+"79
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+"89
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+"111
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+"119
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"147
+[v _lcd_start lcd_start `(v  1 e 1 0 ]
+"153
+[v _lcd_put_float lcd_put_float `(v  1 e 1 0 ]
+"3 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"9 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"10 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\system_configuration.c
+[v _System_Test System_Test `(v  1 e 1 0 ]
+"35 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\addtional_string.c
+[v _rounders rounders `DC[11]d  1 s 44 rounders ]
+[s S145 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"181 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
+[u S152 . 1 `S145 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES152  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+[s S109 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2248
+[s S114 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[u S119 . 1 `S109 1 . 1 0 `S114 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES119  1 e 1 @159 ]
+"2677
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2680
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2683
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"2686
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2716
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2719
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+[s S22 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"50 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\lcd.c
+[u S31 . 1 `uc 1 ch 1 0 `S22 1 bits 1 0 ]
+[v _lcd_bits lcd_bits `S31  1 e 1 0 ]
+"3 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"12
+} 0
+"147 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\lcd.c
+[v _lcd_start lcd_start `(v  1 e 1 0 ]
+{
+"151
+} 0
+"119
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"145
+} 0
+"79
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"84
+} 0
+"10 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\system_configuration.c
+[v _System_Test System_Test `(v  1 e 1 0 ]
+{
+"19
+} 0
+"153 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\lcd.c
+[v _lcd_put_float lcd_put_float `(v  1 e 1 0 ]
+{
+"155
+[v lcd_put_float@lcd_float_ans lcd_float_ans `[5]uc  1 a 5 47 ]
+"153
+[v lcd_put_float@val val `f  1 p 4 41 ]
+[v lcd_put_float@lcd_position lcd_position `uc  1 p 1 45 ]
+"159
+} 0
+"89
+[v _lcd_puts lcd_puts `(v  1 e 1 0 ]
+{
+[v lcd_puts@s s `*.4DCuc  1 a 1 wreg ]
+[v lcd_puts@s s `*.4DCuc  1 a 1 wreg ]
+"91
+[v lcd_puts@s s `*.4DCuc  1 a 1 3 ]
+"94
+} 0
+"111
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+"113
+[v lcd_goto@pos pos `uc  1 a 1 2 ]
+"115
+} 0
+"55
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+"57
+[v lcd_write@c c `uc  1 a 1 1 ]
+"72
+} 0
+"51 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\addtional_string.c
+[v _ftoa ftoa `(*.4uc  1 e 1 0 ]
+{
+"57
+[v ftoa@intPart intPart `l  1 a 4 35 ]
+"53
+[v ftoa@ptr ptr `*.4uc  1 a 1 40 ]
+"54
+[v ftoa@p p `*.4uc  1 a 1 39 ]
+"56
+[v ftoa@c c `uc  1 a 1 34 ]
+"55
+[v ftoa@p1 p1 `*.4uc  1 a 1 33 ]
+"51
+[v ftoa@f f `d  1 p 4 21 ]
+[v ftoa@buf buf `*.4uc  1 p 1 25 ]
+[v ftoa@precision precision `i  1 p 2 26 ]
+"138
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 10 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 9 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"242 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@a a `d  1 p 4 8 ]
+[v ___flsub@b b `d  1 p 4 12 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 11 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 10 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 9 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 8 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S498 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S503 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S506 . 4 `l 1 i 4 0 `d 1 f 4 0 `S498 1 fAsBytes 4 0 `S503 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S506  1 a 4 15 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 9 ]
+[s S575 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S578 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S575 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S578  1 a 2 19 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 14 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 13 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 8 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+{
+"10
+[v ___almod@sign sign `uc  1 a 1 10 ]
+[v ___almod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___almod@divisor divisor `l  1 p 4 0 ]
+[v ___almod@dividend dividend `l  1 p 4 4 ]
+"34
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"41
+} 0
+"9 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PICF877A\PIC16F\Monitor_Power_Supply.X\pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"26
+} 0

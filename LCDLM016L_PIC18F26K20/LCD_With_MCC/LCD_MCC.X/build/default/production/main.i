@@ -4463,19 +4463,35 @@ void SYSTEM_Initialize(void);
 # 80 "./mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
 # 48 "main.c" 2
-# 1 "./lcd.h" 1
-# 120 "./lcd.h"
-void LCD_Initialize(void);
-# 138 "./lcd.h"
-void LCDPutChar(uint8_t ch);
-# 156 "./lcd.h"
-void LCDPutCmd(uint8_t ch);
-# 174 "./lcd.h"
-void LCDPutStr(const char *);
-# 192 "./lcd.h"
-void LCDWriteNibble(uint8_t ch,uint8_t rs);
-# 214 "./lcd.h"
-void LCDGoto(uint8_t pos, uint8_t ln);
+# 1 "./lcd_singlebits_configuration.h" 1
+# 42 "./lcd_singlebits_configuration.h"
+ void lcd_write(unsigned char);
+
+
+
+ void lcd_clear(void);
+
+
+
+ void lcd_puts(const char * s);
+
+
+
+ void lcd_goto(unsigned char pos);
+
+
+
+ void lcd_init(void);
+
+void lcd_putch(char);
+
+
+
+
+
+void lcd_put_float(float val ,uint8_t lcd_position);
+
+void lcd_start(void);
 # 49 "main.c" 2
 
 
@@ -4498,23 +4514,10 @@ void main(void)
     SYSTEM_Initialize();
 
 
-    LCD_Initialize();
-# 101 "main.c"
-     LCDPutStr("  Hello World!");
-     LCDGoto(8,1);
-     LCDPutChar('1');
-     Delay_Seconds(1);
-     LCDGoto(8,1);
-     LCDPutChar('2');
-     Delay_Seconds(1);
-     LCDGoto(8,1);
-     LCDPutChar('3');
-     Delay_Seconds(1);
-     LCDPutCmd(0x01);
 
-     LCDPutStr("   LCD Display");
-             LCDGoto(0,1);
-            LCDPutStr("StudentCompanion");
+    lcd_init();
+    lcd_clear();
+# 104 "main.c"
     while (1)
     {
 

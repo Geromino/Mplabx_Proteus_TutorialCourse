@@ -27,21 +27,19 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"46 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\lcd.c
-[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
-"76
+"76 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\lcd.c
 [v _LCDWriteNibble LCDWriteNibble `(v  1 e 1 0 ]
 "103
 [v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
 "118
 [v _LCDPutCmd LCDPutCmd `(v  1 e 1 0 ]
-"135
-[v _LCDPutStr LCDPutStr `(v  1 e 1 0 ]
-"148
-[v _LCDGoto LCDGoto `(v  1 e 1 0 ]
-"56 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\main.c
-[v _Delay_Seconds Delay_Seconds `(v  1 e 1 0 ]
-"64
+"38 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\lcd_singlebits_configuration.c
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+"59
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+"99
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"64 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\main.c
 [v _main main `(v  1 e 1 0 ]
 "108 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -106,6 +104,44 @@
 ]
 [u S195 . 1 `S149 1 . 1 0 `S158 1 . 1 0 `S167 1 . 1 0 `S176 1 . 1 0 `S181 1 . 1 0 `S186 1 . 1 0 `S192 1 . 1 0 ]
 [v _PORTBbits PORTBbits `VES195  1 e 1 @3969 ]
+[s S376 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"1036
+[s S385 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S394 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S403 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S405 . 1 `uc 1 T3CKI 1 0 :1:0 
+]
+[s S407 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S411 . 1 `S376 1 . 1 0 `S385 1 . 1 0 `S394 1 . 1 0 `S403 1 . 1 0 `S405 1 . 1 0 `S407 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES411  1 e 1 @3970 ]
 "1251
 [v _LATA LATA `VEuc  1 e 1 @3977 ]
 "1363
@@ -165,10 +201,41 @@
 ]
 [u S102 . 1 `S80 1 . 1 0 `S89 1 . 1 0 `S98 1 . 1 0 ]
 [v _INTCONbits INTCONbits `VES102  1 e 1 @4082 ]
+[s S307 . 1 `uc 1 b0 1 0 :1:0 
+`uc 1 b1 1 0 :1:1 
+`uc 1 b2 1 0 :1:2 
+`uc 1 b3 1 0 :1:3 
+`uc 1 b4 1 0 :1:4 
+`uc 1 b5 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"33 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\lcd_singlebits_configuration.c
+[u S316 . 1 `uc 1 ch 1 0 `S307 1 bits 1 0 ]
+[v _lcd_bits lcd_bits `S316  1 e 1 0 ]
 "64 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"120
+"108
+} 0
+"99 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\lcd_singlebits_configuration.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"124
+} 0
+"59
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"64
+} 0
+"38
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+"40
+[v lcd_write@c c `uc  1 a 1 0 ]
+"56
 } 0
 "108 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
@@ -184,69 +251,4 @@
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "123
-} 0
-"46 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\lcd.c
-[v _LCD_Initialize LCD_Initialize `(v  1 e 1 0 ]
-{
-"73
-} 0
-"135
-[v _LCDPutStr LCDPutStr `(v  1 e 1 0 ]
-{
-"137
-[v LCDPutStr@i i `uc  1 a 1 8 ]
-"135
-[v LCDPutStr@str str `*.32Cuc  1 p 2 4 ]
-"146
-} 0
-"103
-[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
-{
-[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
-[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
-"105
-[v LCDPutChar@ch ch `uc  1 a 1 3 ]
-"115
-} 0
-"148
-[v _LCDGoto LCDGoto `(v  1 e 1 0 ]
-{
-[v LCDGoto@pos pos `uc  1 a 1 wreg ]
-[v LCDGoto@pos pos `uc  1 a 1 wreg ]
-[v LCDGoto@ln ln `uc  1 p 1 4 ]
-"151
-[v LCDGoto@pos pos `uc  1 a 1 9 ]
-"162
-} 0
-"118
-[v _LCDPutCmd LCDPutCmd `(v  1 e 1 0 ]
-{
-[v LCDPutCmd@ch ch `uc  1 a 1 wreg ]
-[v LCDPutCmd@ch ch `uc  1 a 1 wreg ]
-"120
-[v LCDPutCmd@ch ch `uc  1 a 1 3 ]
-"132
-} 0
-"76
-[v _LCDWriteNibble LCDWriteNibble `(v  1 e 1 0 ]
-{
-[v LCDWriteNibble@ch ch `uc  1 a 1 wreg ]
-[v LCDWriteNibble@ch ch `uc  1 a 1 wreg ]
-[v LCDWriteNibble@rs rs `uc  1 p 1 0 ]
-"79
-[v LCDWriteNibble@ch ch `uc  1 a 1 1 ]
-"101
-} 0
-"56 C:\Aran_Research_Projects\Freelancer_Projects\GitHub\Mplabx_Proteus_TutorialCourse\LCDLM016L_PIC18F26K20\LCD_With_MCC\LCD_MCC.X\main.c
-[v _Delay_Seconds Delay_Seconds `(v  1 e 1 0 ]
-{
-[v Delay_Seconds@z z `uc  1 a 1 wreg ]
-"58
-[v Delay_Seconds@x x `uc  1 a 1 3 ]
-[v Delay_Seconds@y y `uc  1 a 1 2 ]
-"56
-[v Delay_Seconds@z z `uc  1 a 1 wreg ]
-"59
-[v Delay_Seconds@z z `uc  1 a 1 1 ]
-"63
 } 0
